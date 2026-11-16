@@ -1,0 +1,34 @@
+{
+  "Name": "NoBOOM",
+  "Summary": "Real labelled process time series from laboratory, pilot-scale and BASF industrial-scale chemical plants, including batch and continuous distillation, collected as a benchmark for time-series anomaly detection.",
+  "Domain": "Chemical and process",
+  "Asset / Process": "Chemical process units",
+  "Modality": "Time series",
+  "Task": "Anomaly detection",
+  "Annotation": "Event and time label",
+  "Source Type": "Mixed",
+  "Access": "Kaggle",
+  "Size": "About 295 MB as ZIP",
+  "Year": "2025",
+  "License": "CC BY",
+  "Publisher": "RPTU Kaiserslautern and BASF SE",
+  "Description": "NoBOOM, short for No Big Outage Or Mishap, is a collection of real-world chemical process datasets for time-series anomaly detection. It was assembled by researchers at RPTU Kaiserslautern together with BASF and partners at TU München, TU Dortmund and the University of California, Irvine, and the accompanying paper, \"NoBOOM: Chemical Process Datasets for Industrial Anomaly Detection\", appeared in Advances in Neural Information Processing Systems 38 (NeurIPS 2025).\n\nThe collection spans three levels of realism: controlled laboratory experiments, pilot-scale plant data and real production data from an industrial process at BASF SE. The processes include distillation in both batch and continuous operation. Anomalies are labelled, which makes it one of the few public benchmarks of real, labelled chemical process data, and allows anomaly detectors developed on simulated benchmarks such as the Tennessee Eastman process to be tested on measured plant behaviour.\n\nThe data is hosted on Kaggle as a ZIP archive of about 295 MB. Downloading requires a free Kaggle account but no separate license agreement, and the dataset is released under CC BY 4.0.",
+  "References": [
+    {
+      "Text": "Kaggle",
+      "Link": "https://www.kaggle.com/datasets/faebs94/noboom-anomaly-detection-in-chemical-processes"
+    },
+    {
+      "Text": "Paper (NeurIPS 2025, DOI)",
+      "Link": "https://doi.org/10.52202/085713-3499"
+    },
+    {
+      "Text": "Paper on OpenReview",
+      "Link": "https://openreview.net/pdf?id=qiLboR0ocm"
+    },
+    {
+      "Text": "Public Chemical Manufacturing Datasets (source collection)",
+      "Link": "https://github.com/redsynapses/public-chemical-manufacturing-datasets"
+    }
+  ]
+}

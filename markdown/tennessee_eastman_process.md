@@ -22,5 +22,6 @@ Fifteen archives, idv1 to idv15, record how the decentralized control strategy o
 
 - [Official page](https://depts.washington.edu/control/LARRY/TE/download.html)
 - [Industrial Atlas page](https://www.indatlas.com/datasets/tennessee-eastman-process/)
+- [Kaggle CSV mirror](https://www.kaggle.com/datasets/afrniomelo/tep-csv)
 
 [⬅️ Back to Index](../README.md)

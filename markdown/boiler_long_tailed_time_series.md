@@ -24,5 +24,6 @@ The figshare record holds two zipped CSV files, one with completed data and one 
 - [Official page](https://springernature.figshare.com/articles/dataset/A_long-tailed_distribution_time-series_dataset_in_boiler_equipment/28868849)
 - [DOI](https://doi.org/10.1038/s41597-025-05096-4)
 - [Industrial Atlas page](https://www.indatlas.com/datasets/boiler-long-tailed-time-series/)
+- [Kaggle mirror](https://www.kaggle.com/datasets/nikitamanaenkov/time-series-of-industrial-boiler-operations)
 
 [⬅️ Back to Index](../README.md)

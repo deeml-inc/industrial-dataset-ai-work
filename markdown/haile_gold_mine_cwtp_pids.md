@@ -1,0 +1,28 @@
+# Haile Gold Mine Contact Water Treatment Plant drawings
+
+Permit application package for the contact water treatment plant upgrade at the Haile Gold Mine in South Carolina, with piping and instrumentation diagrams on pages 47 to 60 alongside a process flow diagram, design basis narrative and safety data sheets.
+
+- **Domain:** Water and utilities
+- **Asset / Process:** Water treatment and distribution
+- **Modality:** Text and documents
+- **Task:** Other
+- **Source Type:** Public records
+- **Access:** Direct download
+- **Size:** 13 MB digital PDF; P&IDs on pages 47–60
+- **Year:** 2023
+- **Publisher:** South Carolina Department of Environmental Services
+
+## Description
+
+This document is the permit application package for an upgrade of the contact water treatment plant at the Haile Gold Mine in Lancaster County, South Carolina, published in the public docket of the South Carolina Department of Environmental Services (the file on the agency server is dated August 2023). Mine contact water must be treated before discharge, and the permit application carries the supporting engineering drawings.
+
+The piping and instrumentation diagrams are on pages 47 to 60 of the 13 MB digital PDF. The rest of the document holds a process flow diagram, the permit application forms, a design basis narrative and safety data sheets for the treatment chemicals, which gives the drawings unusually complete process context for P&ID digitisation, symbol recognition or document understanding work.
+
+Like the other piping and instrumentation diagram sets in this collection, the document is a public record: it can be downloaded and read freely, but the drawings were prepared by engineering consultants who generally retain copyright, so check before republishing the drawings themselves.
+
+## References
+
+- [Permit application PDF (SC DES)](https://des.sc.gov/sites/des/files/media/document/BOW_HGM_ContactWWTreatmentUpgrade.pdf)
+- [Public Chemical Manufacturing Datasets (source collection)](https://github.com/redsynapses/public-chemical-manufacturing-datasets)
+
+[⬅️ Back to Index](../README.md)

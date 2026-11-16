@@ -22,6 +22,10 @@
     {
       "Text": "Industrial Atlas page",
       "Link": "https://www.indatlas.com/datasets/boiler-long-tailed-time-series/"
+    },
+    {
+      "Text": "Kaggle mirror",
+      "Link": "https://www.kaggle.com/datasets/nikitamanaenkov/time-series-of-industrial-boiler-operations"
     }
   ]
 }

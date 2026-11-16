@@ -17,6 +17,10 @@
     {
       "Text": "Industrial Atlas page",
       "Link": "https://www.indatlas.com/datasets/tennessee-eastman-process/"
+    },
+    {
+      "Text": "Kaggle CSV mirror",
+      "Link": "https://www.kaggle.com/datasets/afrniomelo/tep-csv"
     }
   ]
 }

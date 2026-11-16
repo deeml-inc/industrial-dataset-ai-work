@@ -10,7 +10,7 @@ Datasets are grouped by domain. Jump to a domain:
 
 - [Aerospace and defense](#aerospace-and-defense) (7)
 - [Buildings and appliances](#buildings-and-appliances) (10)
-- [Chemical and process](#chemical-and-process) (14)
+- [Chemical and process](#chemical-and-process) (16)
 - [Cross-industrial](#cross-industrial) (14)
 - [Electronics and semiconductors](#electronics-and-semiconductors) (7)
 - [Energy and power](#energy-and-power) (36)
@@ -25,7 +25,7 @@ Datasets are grouped by domain. Jump to a domain:
 - [Oil and gas](#oil-and-gas) (8)
 - [Robotics and automation](#robotics-and-automation) (11)
 - [Transportation and mobility](#transportation-and-mobility) (9)
-- [Water and utilities](#water-and-utilities) (11)
+- [Water and utilities](#water-and-utilities) (16)
 
 ### Aerospace and defense
 
@@ -66,8 +66,10 @@ Datasets are grouped by domain. Jump to a domain:
 | [Gas sensor array temperature modulation](markdown/gas_sensor_array_temperature_modulation.md) | — | Time series | Classification; Regression | UCI repository | 2019 | CC BY |
 | [Gas sensor array under dynamic gas mixtures](markdown/gas_sensor_array_under_dynamic_gas_mixtures.md) | — | Time series | Regression | UCI repository | 2015 | Academic or non-commercial terms |
 | [Global database of cement production assets and upstream suppliers](markdown/global_cement_assets.md) | — | Tabular | Other | Zenodo, Dataverse or Figshare | 2023 | CC0 and public domain |
+| [HistorianRCA](markdown/historianrca.md) | Chemical process units | Time series | Fault diagnosis; Anomaly detection | Code repository | 2026 | CC BY |
 | [IndPenSim](markdown/indpensim.md) | Chemical process units | Time series; Spectra | Process monitoring | Mendeley Data | 2019 | — |
 | [ISDB - International Stiction Data Base](markdown/isdb_-_international_stiction_data_base.md) | Valves and actuators | Time series | Process monitoring | — | 2009 | — |
+| [NoBOOM](markdown/noboom.md) | Chemical process units | Time series | Anomaly detection | Kaggle | 2025 | CC BY |
 | [Open Reaction Database](markdown/open_reaction_database.md) | — | Tabular | Regression | Official portal | 2021 | — |
 | [PC-Gym](markdown/pc_gym.md) | Chemical process units | Simulator | Simulation and control | Code repository | 2024 | MIT |
 | [PRONTO heterogeneous benchmark dataset](markdown/pronto_multiphase_flow_benchmark.md) | — | Time series; Video; Multimodal | Process monitoring | Zenodo, Dataverse or Figshare | 2019 | CC BY |
@@ -406,12 +408,17 @@ Datasets are grouped by domain. Jump to a domain:
 | [Contamination Isolation Scenarios in Water Distribution Networks](markdown/wdn_contamination_isolation_scenarios.md) | Water treatment and distribution | Time series | Process monitoring | Zenodo, Dataverse or Figshare | 2026 | CC BY |
 | [DiTEC-WDN](markdown/ditec_wdn.md) | Water treatment and distribution | Time series | Forecasting | Hugging Face | 2025 | CC BY |
 | [GECCO Industrial Challenge 2018 Water Quality](markdown/gecco_2018_water_quality.md) | Water treatment and distribution | Time series | Anomaly detection | Zenodo, Dataverse or Figshare | 2018 | CC BY |
+| [Haile Gold Mine Contact Water Treatment Plant drawings](markdown/haile_gold_mine_cwtp_pids.md) | Water treatment and distribution | Text and documents | Other | Direct download | 2023 | — |
 | [Ismailia Sewage Treatment Plant operational monitoring dataset, 2000–2008](markdown/ismailia_sewage_treatment_plant.md) | Water treatment and distribution | Time series | Process monitoring | Mendeley Data | 2026 | CC BY |
 | [LeakDB](markdown/leakdb.md) | Water treatment and distribution | Time series | Anomaly detection | Zenodo, Dataverse or Figshare | 2018 | CC BY |
 | [Multi-Sensor Time-Series Dataset for Leakage Detection in Stockholm's Water Distribution Network](markdown/stockholm_wdn_leakage.md) | Water treatment and distribution | Time series | Classification | Zenodo, Dataverse or Figshare | 2026 | CC BY |
+| [Pahala Wastewater Treatment Plant design-build drawings](markdown/pahala_wwtp_pids.md) | Water treatment and distribution | Text and documents | Other | Direct download | 2021 | CC0 and public domain |
 | [Pump Sensor Data](markdown/pump_sensor_data.md) | Pumps, compressors and fans | Time series | RUL and prognostics | Kaggle | — | — |
+| [Ruttan Mine Water Treatment Plant documents](markdown/ruttan_mine_wtp_pids.md) | Water treatment and distribution | Text and documents | Other | Direct download | 2025 | — |
+| [Salina Wastewater Treatment Plant basis of design report](markdown/salina_wwtp_bdr_pids.md) | Water treatment and distribution | Text and documents | Other | Direct download | 2021 | — |
 | [SKAB](markdown/skab.md) | Pumps, compressors and fans; Motors and drives | Time series | Anomaly detection | Code repository | 2020 | — |
 | [Time Series Dataset for Modeling and Forecasting of N2O in Wastewater Treatment](markdown/n2o_wastewater_time_series.md) | Water treatment and distribution | Time series | Forecasting | Mendeley Data | 2024 | CC BY |
+| [Virden Wastewater Treatment Facility Phase 2 P&I drawings](markdown/virden_wwtf_pids.md) | Water treatment and distribution | Text and documents; Image | Other | Direct download | 2019 | — |
 | [Wastewater Treatment Plant Data for Nutrient Removal System](markdown/agtrup_wastewater_nutrient_removal.md) | Water treatment and distribution | Time series | Forecasting | Mendeley Data | 2024 | CC BY-NC |
 <!-- TABLE_END -->
 
@@ -425,3 +432,6 @@ This repository was partly inspired by and developed using ideas from the follow
 - [Jonathan Dambros Awesome Industrial Datasets ](https://github.com/jonathanwvd)
 
 Their work provided useful reference points during the development of this project.
+
+## License
+The datasets linked here are owned by their respective sources and carry their own terms. This repo only collects the links and descriptions, which are released under CC BY 4.0 — see LICENSE.
