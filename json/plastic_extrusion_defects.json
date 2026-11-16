@@ -1,0 +1,20 @@
+{
+  "Name": "Find a Defect in the Production",
+  "Summary": "Data from a plastic film extrusion line of three plants, where film breakage is the defect the customer most wants minimised and defects are seen only by the operator.",
+  "Domain": "Manufacturing",
+  "Modality": "Tabular; Time series",
+  "Task": "Defect detection; Quality prediction",
+  "Access": "Kaggle",
+  "License": "CC BY-ND and NC-ND",
+  "Description": "This dataset describes a plastic film extrusion line made of three separate plants that heat granular raw material and draw it into a film of three layers. Output quality is judged on product parameters such as film thickness and stretch, which sensors monitor, and on defects, which the operator spots visually and not always in real time. Production technologists trace the defects to causes that include equipment malfunction and poor incoming raw material.\n\nDefect times are often reconstructed from the film length and bookmark markers. Film breakage is the defect the customer most wants to reduce; it has mechanical causes, such as a speck falling into the extruder head, and links to other defects, most often holes in the web, unmelted raw granules and scale. The files are extrusion.csv, a legend workbook (legend.xlsx) and stat.csv.\n\nToday these defects are checked through laboratory tests of samples rather than from the installation data. The stated aim is to find defects in production, with film breakage as the one to minimise. The data is released under CC BY-NC-ND 4.0.",
+  "References": [
+    {
+      "Text": "Kaggle dataset",
+      "Link": "https://www.kaggle.com/podsyp/find-a-defect-in-the-production-extrusion-line/metadata"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/plastic-extrusion-defects/"
+    }
+  ]
+}

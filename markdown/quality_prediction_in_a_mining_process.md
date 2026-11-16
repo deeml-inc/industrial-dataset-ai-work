@@ -1,0 +1,26 @@
+# Quality Prediction in a Mining Process
+
+Process and lab data from an iron ore flotation plant, from March to September 2017, aimed at predicting the silica impurity in the ore concentrate.
+
+- **Domain:** Mining and mineral processing
+- **Modality:** Time series
+- **Task:** Regression; Quality prediction
+- **Annotation:** Scalar target
+- **Source Type:** Real production
+- **Access:** Kaggle
+- **License:** CC0 and public domain
+
+## Description
+
+Quality Prediction in a Mining Process holds operating data from a flotation plant, the mining stage in which iron ore is concentrated. It is shared as data from a real plant and released under CC0 1.0.
+
+The single file, MiningProcess_Flotation_Plant_Database.csv, covers March to September 2017. Some columns were sampled every 20 seconds and others once an hour. After the date and time come two quality measures of the iron ore pulp entering the plant, then the variables with most influence on final ore quality, and then process data such as levels and air flows in the flotation columns. The last two columns are lab measurements of the concentrate.
+
+The prediction target is the last column, the silica percentage in the concentrate, an impurity measured hourly. The stated goal is early warning for engineers, so less ore goes to tailings. The publisher also asks whether silica can be predicted every minute, how many hours ahead it can be predicted, and whether it can be predicted without the closely correlated iron concentrate column.
+
+## References
+
+- [Kaggle dataset](https://www.kaggle.com/datasets/edumagalhaes/quality-prediction-in-a-mining-process)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/quality-prediction-in-a-mining-process/)
+
+[⬅️ Back to Index](../README.md)

@@ -1,0 +1,27 @@
+{
+  "Name": "MVTec AD",
+  "Summary": "Industrial inspection dataset for benchmarking anomaly detection, with over 5,000 high-resolution images in fifteen object and texture categories.",
+  "Domain": "Manufacturing",
+  "Asset / Process": "Surfaces and textures",
+  "Modality": "Image",
+  "Task": "Anomaly detection",
+  "Annotation": "Normal-only training; Pixel mask",
+  "Size": "5,000+ images",
+  "License": "CC BY-NC-SA",
+  "Publisher": "MVTec",
+  "Description": "MVTec AD is an MVTec dataset whose purpose is benchmarking anomaly detection methods, chiefly in industrial inspection. It is described in a paper on unsupervised anomaly detection and in an extended version of that paper.\n\nThe dataset contains more than 5,000 high-resolution images in fifteen object and texture categories. Each category has a set of defect-free training images and a test set mixing images with defects of various kinds and images free of defects. Every anomaly comes with a pixel-precise annotation.\n\nPython scripts with a readme support a fair and consistent evaluation of new and existing methods, and the metrics are defined in the paper. The data is released under CC BY-NC-SA 4.0, which does not allow commercial use.",
+  "References": [
+    {
+      "Text": "Official page",
+      "Link": "https://www.mvtec.com/research-teaching/datasets/mvtec-ad"
+    },
+    {
+      "Text": "mvtec.com",
+      "Link": "https://www.mvtec.com/company/research/datasets/mvtec-ad"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/mvtec-anomaly-detection-mvtec-ad/"
+    }
+  ]
+}

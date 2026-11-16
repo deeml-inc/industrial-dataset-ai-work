@@ -1,0 +1,26 @@
+# One Year Industrial Component Degradation
+
+Twelve months of machine data from a degrading cutting blade in an OCME Vega shrink-wrapper, split into 519 short CSV samples across eight modes.
+
+- **Domain:** Manufacturing
+- **Modality:** Time series
+- **Task:** Condition monitoring; RUL and prognostics
+- **Annotation:** Unlabeled
+- **Access:** Kaggle
+- **Size:** 519 files
+- **License:** CC BY-SA
+
+## Description
+
+This dataset records machine data from a degrading cutting blade over 12 months in total. The machine is the Vega shrink-wrapper from OCME, used in food and beverage production lines to group bottles or cans, wrap them in plastic film and heat-shrink the film into packs. The recording began in the EU Horizon 2020 project IMPROVE.
+
+The 519 CSV files each hold a sample of about eight seconds at a 4 ms resolution, or 2048 time steps per file. File names encode the month of the test year, day, start time, sample number and one of eight operating modes. The blade turns fast inside a metal housing and cannot be inspected visually in operation.
+
+The stated goals are to show how the component degrades over the year, to infer the eight operating modes from the time series, and, if wear can be predicted, to estimate remaining useful life for maintenance planning. The data is cited with a CIRP CMS 2018 paper by von Birgelen and colleagues on self-organizing maps for predictive maintenance. The license is CC BY-SA 3.0.
+
+## References
+
+- [Kaggle dataset](https://www.kaggle.com/datasets/inIT-OWL/one-year-industrial-component-degradation/versions/1)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/one-year-industrial-component-degradation/)
+
+[⬅️ Back to Index](../README.md)

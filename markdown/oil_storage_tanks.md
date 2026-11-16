@@ -1,0 +1,24 @@
+# Oil Storage Tanks
+
+Google Earth satellite images of industrial areas with bounding boxes for floating head oil tanks, as 4800x4800 scenes and 512x512 patches.
+
+- **Domain:** Oil and gas
+- **Modality:** Image; Geospatial and remote sensing
+- **Task:** Object detection
+- **Annotation:** Bounding box
+- **Access:** Kaggle
+
+## Description
+
+This dataset gathers satellite images, saved from Google Earth, of tank-containing industrial areas around the world. Floating head tanks are marked with bounding boxes, while fixed head tanks carry no annotation. In a floating head tank the roof rests on the crude oil, so the shadows the tank casts change with the stored volume.
+
+Raw scenes measure 4800x4800 pixels, and each is cut into 100 patches of 512x512 pixels that overlap by 37 pixels on both axes. Every box is given by the coordinates of its four corners and again in COCO format, and images with no floating head tank carry the label 'skip'. Metadata for each large scene records the coordinates of its centre and the altitude.
+
+The publisher explains that the ratio between the outer shadow of the tank and the inner shadow of its head can be used to estimate the stored volume. Commercial firms such as Planet and Orbital Insight collect satellite imagery of oil tanks to estimate reserve volumes.
+
+## References
+
+- [Kaggle dataset](https://www.kaggle.com/datasets/towardsentropy/oil-storage-tanks)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/oil-storage-tanks/)
+
+[⬅️ Back to Index](../README.md)

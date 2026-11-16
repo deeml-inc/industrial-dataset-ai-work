@@ -1,0 +1,25 @@
+# Panasonic 18650PF Li-ion Battery Data
+
+Laboratory tests of a new 2.9 Ah Panasonic 18650PF cell, including HPPC, drive cycles and impedance spectroscopy at five temperatures.
+
+- **Domain:** Energy and power
+- **Asset / Process:** Batteries
+- **Modality:** Time series
+- **Task:** Regression
+- **Source Type:** Lab or testbed
+- **Publisher:** University of Wisconsin-Madison
+
+## Description
+
+The Panasonic 18650PF Li-ion Battery Data set records tests carried out at the University of Wisconsin-Madison by Phillip Kollmeyer, with McMaster University also listed as an institution. The tests used a brand-new 2.9 Ah Panasonic 18650PF cell, placed in an 8 cu.ft. thermal chamber and driven by a Digatron Firing Circuits Universal Battery Tester through a 25 A, 18 V channel.
+
+The test series covers HPPC, drive cycles and impedance spectroscopy at five different temperatures. After each test the cell was charged at 1C to 4.2 V with a 50 mA cut-off, at a battery temperature of 12 degC or more.
+
+The data is meant for testing neural network and Kalman filter state-of-charge algorithms and for developing battery models, as a reference for comparing algorithm and model performance. It has been used in publications such as the 2018 IEEE Transactions on Industrial Electronics paper on LSTM networks for state-of-charge estimation of Li-ion batteries.
+
+## References
+
+- [Mendeley Data](https://data.mendeley.com/datasets/wykht8y7tg/1)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/panasonic-18650pf-li-ion-battery-data/)
+
+[⬅️ Back to Index](../README.md)

@@ -1,0 +1,26 @@
+# Kaputt
+
+Over 230,000 images of more than 48,000 distinct objects for visual defect detection in retail logistics, with more than 29,000 defective instances.
+
+- **Domain:** Logistics and retail
+- **Modality:** Image
+- **Task:** Anomaly detection; Defect detection
+- **Annotation:** Sample label
+- **Source Type:** Real production
+- **Access:** Request or approval
+- **Size:** Over 230,000 images
+
+## Description
+
+Kaputt is a large image dataset for defect detection in a logistics setting rather than in manufacturing. Its authors credit collaborators in Amazon's operations, hardware and software engineering, and annotation teams with the hardware, software, data collection and labelling behind it.
+
+More than 48,000 distinct objects appear in its over 230,000 images, and more than 29,000 of the instances are defective; by the authors' count it is 40 times larger than MVTec. Unlike manufacturing inspection sets with controlled poses and few object categories, the objects vary widely in pose and appearance.
+
+In the authors' evaluation, several anomaly detection methods reach no more than 56.96% AUROC, and existing methods struggle to use normal samples under this variation. Access is granted through a request form on the dataset website.
+
+## References
+
+- [Official page](https://kaputt-dataset.com/)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/kaputt/)
+
+[⬅️ Back to Index](../README.md)

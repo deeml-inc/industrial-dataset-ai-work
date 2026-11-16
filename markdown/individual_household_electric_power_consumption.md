@@ -1,0 +1,28 @@
+# Individual Household Electric Power Consumption
+
+One-minute measurements of active and reactive power, voltage, current and three sub-meters in a house near Paris, from 2006 to 2010.
+
+- **Domain:** Buildings and appliances
+- **Asset / Process:** HVAC and building systems
+- **Modality:** Time series
+- **Task:** Regression
+- **Source Type:** Real production
+- **Access:** UCI repository
+- **Size:** 2,075,259 measurements
+- **Year:** 2012
+- **License:** CC BY
+
+## Description
+
+Georges Hebrail and Alice Berard created Individual Household Electric Power Consumption and donated it to the UCI Machine Learning Repository in 2012. It records the electricity use of one household in Sceaux, 7 km from Paris, France, over almost four years.
+
+The 2,075,259 measurements cover 47 months, from December 2006 to November 2010. Each row has the date and time, global active and reactive power in kilowatts, voltage, current intensity and three sub-meters in watt-hours: the kitchen, the laundry room, and an electric water heater with an air conditioner. Nearly 1.25% of the rows have missing measurements, left empty between semicolon separators.
+
+The active energy drawn each minute by equipment outside the three sub-meters can be derived from the global active power minus the sub-meter readings. The data ships as one text file under CC BY 4.0.
+
+## References
+
+- [UCI Machine Learning Repository](https://archive.ics.uci.edu/ml/datasets/Individual+household+electric+power+consumption)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/individual-household-electric-power-consumption/)
+
+[⬅️ Back to Index](../README.md)

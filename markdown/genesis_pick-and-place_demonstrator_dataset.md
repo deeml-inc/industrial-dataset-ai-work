@@ -1,0 +1,30 @@
+# Genesis Demonstrator Data for Machine Learning
+
+Signals from a portable pick-and-place demonstrator that sorts wood and metal, with state and simulated-anomaly labels plus unlabelled runs with induced faults.
+
+- **Domain:** Robotics and automation
+- **Asset / Process:** Robots and manipulators
+- **Modality:** Time series
+- **Task:** Fault diagnosis; Anomaly detection; Classification
+- **Annotation:** Class label; Event and time label; Unlabeled
+- **Source Type:** Lab or testbed
+- **Access:** Kaggle
+- **Size:** 16,220 observations per labelled file
+- **Year:** 2018
+- **License:** CC BY-NC-SA
+- **Publisher:** inIT - Institute Industrial IT, Ostwestfalen-Lippe University of Applied Sciences
+
+## Description
+
+The Genesis Demonstrator is a portable pick-and-place system built in the OPAK project and revised in the European IMPROVE project; the data is credited to inIT - Institute Industrial IT at Ostwestfalen-Lippe University of Applied Sciences. A linear drive with a pneumatic gripper, fed by an air tank, moves wood and metal from a storage magazine past a sensor to the matching storage box.
+
+Each record combines continuous signals, 13 discrete signals and a Unix timestamp. Two labelled files share 16,220 observations taken every 50 ms through an OPC DA server. One labels the nine PLC state machine steps; the other marks a simulated anomaly by hand, with label 1 for a jammed or tilted linear drive and label 2 for the drive breaking free and correcting its accumulated lag error.
+
+Unlabelled files hold a normal run, a run with a gradually impaired linear drive and one with falling air pressure. The data is cited with a 2018 chapter by von Birgelen and Niggemann on anomaly detection and localization with self-organizing maps. It is released under CC BY-NC-SA 4.0.
+
+## References
+
+- [Kaggle dataset](https://www.kaggle.com/datasets/inIT-OWL/genesis-demonstrator-data-for-machine-learning)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/genesis-pick-and-place-demonstrator-dataset/)
+
+[⬅️ Back to Index](../README.md)

@@ -1,0 +1,27 @@
+# Production Plant Data for Condition Monitoring
+
+Eight run-to-failure experiments on an important production-line component, described by eight selected features, with the stated aim of predicting its condition.
+
+- **Domain:** Manufacturing
+- **Modality:** Time series
+- **Task:** Condition monitoring
+- **Annotation:** RUL label
+- **Source Type:** Real production
+- **Access:** Kaggle
+- **Size:** 8 run-to-failure experiments
+- **License:** CC BY-SA
+
+## Description
+
+This dataset follows the condition of an important component in production lines, one that matters for both plant function and product quality. It was used in earlier research projects such as the EU Horizon 2020 project IMPROVE, and it is cited with a CIRP CMS 2018 paper by von Birgelen and colleagues on self-organizing maps for anomaly localization and predictive maintenance.
+
+It holds 8 run-to-failure experiments, each described by 8 selected features related to the component, spread over ten CSV files. Experts labelled the components with a type of wear, and one component showed no signs of wear at all.
+
+In the reference study, each component in turn served as the prediction target while data from the others trained a self-organizing map of the new condition. This leave-one-out scheme produced a degradation estimate for every component. The license is CC BY-SA 3.0.
+
+## References
+
+- [Kaggle dataset](https://www.kaggle.com/datasets/inIT-OWL/production-plant-data-for-condition-monitoring)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/production-plant-data-for-condition-monitoring/)
+
+[⬅️ Back to Index](../README.md)

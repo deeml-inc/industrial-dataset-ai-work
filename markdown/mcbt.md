@@ -1,0 +1,28 @@
+# MCBT
+
+1,027 real-world images of heavily textured manufacturing surfaces, 800 anomaly-free and 227 defective, released with the AL-CycleGAN code.
+
+- **Domain:** Manufacturing
+- **Asset / Process:** Surfaces and textures
+- **Modality:** Image
+- **Task:** Defect detection; Anomaly localization
+- **Annotation:** Sample label
+- **Access:** Code repository
+- **Size:** 1,027 images
+- **Year:** 2025
+- **Benchmark:** Yes
+
+## Description
+
+MCBT (Manufacturing Complex Background Texture) is the image set used to evaluate the paper "When Textures Deceive: Weakly Supervised Industrial Anomaly Detection with Adapted-Loss", presented at the CVPR 2025 Workshop on Visual Anomaly and Novelty Detection (VAND). The images sit in the MCBT folder of the AL-CycleGAN repository, which holds the PyTorch code of that paper.
+
+Of its 1,027 real-world images, 800 are free of anomalies and 227 are defective, and both the defects and the backgrounds vary. Files follow the unaligned CycleGAN layout with folders such as trainA, trainB, testA and testB.
+
+Results on MCBT are reported as image-level AUROC (I-AUROC) and pixel-level AUROC (P-AUROC). In the paper, AL-CycleGAN improves anomaly localization from 89.0% to 92.9% and is compared with EfficientAD, DRAEM, SimpleNet, Mixed Supervision and GFT.
+
+## References
+
+- [GitHub repository](https://github.com/ganatma/AL-CycleGAN)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/mcbt/)
+
+[⬅️ Back to Index](../README.md)

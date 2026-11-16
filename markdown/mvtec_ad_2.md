@@ -1,0 +1,30 @@
+# MVTec AD 2
+
+Unsupervised anomaly detection benchmark with more than 8,000 high-resolution images across eight new industrial inspection scenarios.
+
+- **Domain:** Manufacturing
+- **Modality:** Image
+- **Task:** Anomaly detection; Anomaly localization; Defect segmentation
+- **Annotation:** Normal-only training; Pixel mask
+- **Access:** Official portal
+- **Size:** 8,000+ images in 8 scenarios
+- **Year:** 2025
+- **License:** CC BY-NC-SA
+- **Publisher:** MVTec Software
+- **Benchmark:** Yes
+
+## Description
+
+MVTec AD 2 is a dataset from MVTec Software for benchmarking unsupervised anomaly detection on demanding industrial inspection use cases. It was first released for the VAND3.0 challenge at CVPR 2025 and is described in a 2026 International Journal of Computer Vision article by Lars Heckler-Kram and co-authors.
+
+It extends earlier benchmarks with eight new scenarios and more than 8,000 high-resolution images. Each scenario has training and validation sets of defect-free images. The test data has two parts: one with pixel-precise annotations of all anomalies and one whose ground truth is kept private, and test images are captured under lighting conditions that the training data does not necessarily contain.
+
+Results on the private part are scored on the MVTec evaluation server. In the paper, current methods stay below 60% average segmentation AU-PRO. All image data is available from the MVTec website and is released under CC BY-NC-SA 4.0 for non-commercial use.
+
+## References
+
+- [Official page](https://www.mvtec.com/company/research/datasets/mvtec-ad-2)
+- [Preprint (arXiv)](https://arxiv.org/abs/2503.21622)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/mvtec-ad-2/)
+
+[⬅️ Back to Index](../README.md)

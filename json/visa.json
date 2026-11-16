@@ -1,0 +1,26 @@
+{
+  "Name": "VisA",
+  "Summary": "Images of 12 objects, four of them printed circuit boards, with 9,621 normal and 1,200 anomalous samples, image-level labels and pixel-level anomaly masks.",
+  "Domain": "Manufacturing",
+  "Asset / Process": "PCBs and electronic assemblies",
+  "Modality": "Image",
+  "Task": "Anomaly detection; Anomaly localization; Defect segmentation",
+  "Annotation": "Sample label; Pixel mask; Normal-only training",
+  "Access": "Direct download",
+  "Size": "10,821 images",
+  "Year": "2022",
+  "License": "CC BY",
+  "Publisher": "Amazon Science",
+  "Benchmark": "Yes",
+  "Description": "VisA (Visual Anomaly) is an image dataset for anomaly detection and segmentation, released with the ECCV 2022 paper \"SPot-the-Difference Self-Supervised Pre-training for Anomaly Detection and Segmentation\" by Yang Zou, Jongheon Jeong, Latha Pemula, Dongqing Zhang and Onkar Dabeer. The images are hosted on AWS S3.\n\nThe 10,821 images form 12 subsets. Four are printed circuit boards with transistors, capacitors and chips; Capsules, Candles, Macaroni1 and Macaroni2 show several instances per view; Cashew, Chewing gum, Fryum and Pipe fryum show roughly aligned single objects. Flaws include scratches, dents, color spots, cracks, misplacements and missing parts.\n\nA CSV file gives each image's label and pixel-level mask; normal images have no stored mask. Split files build 1-class, 2-class high-shot and 2-class few-shot setups, and a script computes classification and segmentation metrics. The data is under CC BY 4.0 and the code under Apache 2.0.",
+  "References": [
+    {
+      "Text": "GitHub repository",
+      "Link": "https://github.com/amazon-science/spot-diff"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/visa/"
+    }
+  ]
+}

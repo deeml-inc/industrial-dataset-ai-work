@@ -1,0 +1,23 @@
+{
+  "Name": "Industrial IoT Dataset (Synthetic)",
+  "Summary": "Fully synthetic smart-factory table of 500,000 simulated machines with sensor, maintenance and supervision fields and two failure-related targets.",
+  "Domain": "Manufacturing",
+  "Modality": "Tabular",
+  "Task": "Classification; RUL and prognostics",
+  "Annotation": "Sample label; Scalar target",
+  "Source Type": "Synthetic",
+  "Access": "Kaggle",
+  "Size": "500,000 simulated machines",
+  "License": "Apache 2.0",
+  "Description": "The Industrial IoT Dataset (Synthetic), also called the Factory Sensor Simulator, is a fully generated dataset that its creator describes as designed for predictive maintenance, anomaly detection and industrial machine learning in an Industry 5.0 setting. No real-world measurements were used; the values were generated to imitate industrial trends in a futuristic smart factory.\n\nThe file factory_sensor_simulator_2040.csv holds sensor readings, operating metrics and maintenance records for 500,000 simulated machines of more than 30 types, such as CNC mills, furnaces, robot arms and laser cutters. Core channels cover temperature, vibration, sound, power and oil or coolant levels, alongside maintenance history, AI supervision fields and type-specific features like laser intensity and hydraulic pressure.\n\nTwo target columns are included: remaining useful life in days, marked for regression, and a binary flag for failure within seven days, marked for classification. The data is released under the Apache 2.0 license.",
+  "References": [
+    {
+      "Text": "Kaggle dataset",
+      "Link": "https://www.kaggle.com/datasets/canozensoy/industrial-iot-dataset-synthetic"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/industrial-iot-dataset-synthetic/"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+# CWRU Bearing Data
+
+Vibration recordings of normal ball bearings and of bearings with EDM-seeded faults at three locations, taken at motor loads of 0 to 3 horsepower.
+
+- **Domain:** Manufacturing
+- **Asset / Process:** Bearings; Motors and drives
+- **Modality:** Vibration
+- **Task:** Fault diagnosis; Classification
+- **Annotation:** Class label
+- **Source Type:** Lab or testbed
+- **Access:** Official portal
+
+## Description
+
+CWRU Bearing Data is a collection of ball bearing test data for normal and faulty bearings. The experiments used a 2 hp Reliance Electric motor, with acceleration measured at locations near to and remote from the motor bearings.
+
+The motor bearings were seeded with faults by electro-discharge machining (EDM). Each fault, between 0.007 and 0.040 inches in diameter, was introduced on its own at the inner raceway, the rolling element (ball) or the outer raceway. Each faulted bearing was reinstalled in the test motor, and vibration was recorded at motor loads of 0 to 3 horsepower, with motor speeds from 1797 to 1720 RPM.
+
+The motor test conditions and the fault status of the bearing are documented for each experiment.
+
+## References
+
+- [Official page](https://engineering.case.edu/bearingdatacenter)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/cwru-bearing-data/)
+
+[⬅️ Back to Index](../README.md)

@@ -1,0 +1,29 @@
+# RobustAD
+
+Amazon Science image set for testing how anomaly detectors hold up under distribution shift, with PCB, metal part and piled packet subsets.
+
+- **Domain:** Cross-industrial
+- **Asset / Process:** PCBs and electronic assemblies; Castings and metal parts
+- **Modality:** Image
+- **Task:** Anomaly localization; Classification
+- **Annotation:** Sample label; Pixel mask
+- **Access:** Hugging Face
+- **Size:** 3 sub-datasets
+- **License:** CC BY
+- **Publisher:** Amazon Science
+- **Benchmark:** Yes
+
+## Description
+
+RobustAD is an image dataset from Amazon Science for evaluating the robustness of anomaly detection models in real-world scenarios. Its defect detection images come with controlled distribution shifts along several dimensions, and they cover inspection tasks from more than one industry.
+
+There are 3 sub-datasets, one per object of interest. Each has source domain data for training and several target domains with different shifts for testing. The PCB subset shows scratches, soldering melts and missing parts on printed circuit boards. The metal parts subset shows chipping, dents and porosity on reflective automotive parts, and the pile of packets subset is a count-based task from pharmaceutical packaging machines.
+
+In the metal parts subset, normal samples have label 0 and no mask, while anomalous samples have label 1 and a mask; the PCB subset loads a mask column as well. The PCB and metal parts subsets are defined for localization and classification, and piled packets for classification only. The dataset is released under CC BY 4.0.
+
+## References
+
+- [Hugging Face dataset](https://huggingface.co/datasets/AmazonScience/RobustAD)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/robustad/)
+
+[⬅️ Back to Index](../README.md)

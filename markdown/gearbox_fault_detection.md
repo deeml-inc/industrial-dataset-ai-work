@@ -1,0 +1,32 @@
+# Gearbox Fault Detection
+
+Gearbox vibration data from the 2009 PHM Society challenge: accelerometers on both shafts, five speeds and two loads, 560 runs to classify.
+
+- **Domain:** Manufacturing
+- **Asset / Process:** Gears and gearboxes
+- **Modality:** Vibration
+- **Task:** Fault diagnosis
+- **Annotation:** Class label; Unlabeled
+- **Access:** Direct download
+- **Size:** 560 runs, five 84 MB ZIP files
+- **Year:** 2009
+- **Publisher:** PHM Society
+- **Benchmark:** Yes
+
+## Description
+
+Gearbox Fault Detection is the data of the 2009 PHM Society Data Challenge, which focused on fault detection and magnitude estimation for a generic gearbox from accelerometer data and bearing geometry. The data is representative of generic industrial gearbox data.
+
+Accelerometers mounted on the input and output shaft retaining plates were sampled synchronously, with a tachometer giving 10 pulses per revolution. Shaft speeds of 30, 35, 40, 45 and 50 Hz were recorded, each with high and low load. Each CSV file has three columns: input voltage, output voltage and tachometer. The competition set of 560 samples is unlabeled and ships as five 84 MB ZIP files.
+
+Entrants identify the state of the system for each sample, scored by Hamming distance against the true state. A labeled 480 MB set released in November 2009 uses data very similar to the competition set.
+
+## References
+
+- [Official page](https://c3.nasa.gov/dashlink/resources/997/)
+- [phmsociety.org](https://phmsociety.org/public-data-sets/)
+- [c3.ndc.nasa.gov](https://c3.ndc.nasa.gov/dashlink/resources/997/)
+- [phmsociety.org](https://phmsociety.org/competition/09/apparatus)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/gearbox-fault-detection/)
+
+[⬅️ Back to Index](../README.md)

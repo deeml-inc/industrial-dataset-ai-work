@@ -1,0 +1,31 @@
+{
+  "Name": "UK-DALE",
+  "Summary": "Electricity demand from five UK homes, with appliance-level power every six seconds and whole-house voltage and current waveforms at 16 kHz in three of them.",
+  "Domain": "Buildings and appliances",
+  "Modality": "Time series",
+  "Task": "Regression",
+  "Annotation": "Scalar target",
+  "Source Type": "Real production",
+  "Access": "Official portal",
+  "Size": "Five houses; the 16 kHz files total 4 TB",
+  "Year": "2015",
+  "Description": "UK-DALE records Domestic Appliance-Level Electricity in the UK for energy disaggregation, which estimates the consumption of each appliance from a whole-house meter signal. J. Kelly and W. Knottenbelt collected it in five houses with a low-cost, open-source wireless system, described in Scientific Data in 2015.\n\nEvery six seconds the system logged the active power of individual appliances and the whole-house apparent power. In three houses the mains voltage and current were also sampled at 44.1 kHz and stored at 16 kHz as FLAC audio, with active power, apparent power and RMS voltage at 1 Hz. House 1 ran for 655 days with up to 54 channels; the other houses ran for several months with 5 to 26 appliance channels each.\n\nEach house has space-separated CSV files in a format similar to REDD's, and YAML metadata following the NILM Metadata schema. The 6 s and 1 s data also come as one HDF5 file for NILMTK, and the full 16 kHz set needs 4 TB. All data recorded as of January 2015 are held by the UKERC Energy Data Centre.",
+  "References": [
+    {
+      "Text": "Official page",
+      "Link": "https://www.nature.com/articles/sdata20157"
+    },
+    {
+      "Text": "DOI",
+      "Link": "https://doi.org/10.5286/UKERC.EDC.000001"
+    },
+    {
+      "Text": "doc.ic.ac.uk",
+      "Link": "http://www.doc.ic.ac.uk/~dk3810/data/"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/uk-dale-dataset/"
+    }
+  ]
+}

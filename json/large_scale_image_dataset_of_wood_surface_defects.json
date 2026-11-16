@@ -1,0 +1,25 @@
+{
+  "Name": "Large Scale Image Dataset of Wood Surface Defects",
+  "Summary": "Sawn timber surface images from a sawmill production line, with semantic label maps and bounding boxes for ten types of wood defects.",
+  "Domain": "Manufacturing",
+  "Asset / Process": "Surfaces and textures",
+  "Modality": "Image",
+  "Task": "Defect detection; Defect segmentation; Classification",
+  "Annotation": "Pixel mask; Bounding box",
+  "Source Type": "Real production",
+  "Access": "Zenodo, Dataverse or Figshare",
+  "Size": "20,275 images",
+  "Year": "2022",
+  "License": "CC BY",
+  "Description": "Pavel Kodytek, Alexandra Bodzas and Petr Bilik describe this dataset in an F1000Research data note published in 2022. Its color images of sawn timber were acquired during real production in an industrial environment. The images were taken with a JAI SW-4000TL-PMCL trilinear line scan camera, a Kowa LM50LF lens and a Chromasens Corona II LED light, at a conveyor speed of 9.6 m/s.\n\nAfter empty frames were filtered out, 20,275 BMP images of 2,800 × 1,024 pixels remain, 1992 of them without defects. They hold more than 43,000 labelled defects of ten types. Live knots appear in 58.8% of images and dead knots in 41.2%; the other types are resin, knot with crack, crack, marrow, quartzity, knot missing, blue stain and overgrown. Each image has a color-coded semantic map and a bounding box text file.\n\nA modified ResNet-50 detector trained on a 40/60 split reached 81% accuracy, and a second trained person then re-evaluated the labels. The images, labels and labelling software are on Zenodo, and the data are released under CC BY 4.0.",
+  "References": [
+    {
+      "Text": "Official page",
+      "Link": "https://f1000research.com/articles/10-581"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/large-scale-image-dataset-of-wood-surface-defects/"
+    }
+  ]
+}

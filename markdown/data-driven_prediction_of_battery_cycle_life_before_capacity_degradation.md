@@ -1,0 +1,26 @@
+# Data-driven prediction of battery cycle life before capacity degradation
+
+Per-cell cycle life, per-cycle summaries and within-cycle current, voltage and temperature signals for battery cells, stored as MATLAB and Python files.
+
+- **Domain:** Energy and power
+- **Asset / Process:** Batteries
+- **Modality:** Time series
+- **Task:** Regression; RUL and prognostics
+- **Annotation:** Scalar target; RUL label
+- **Access:** Official portal
+- **Year:** 2019
+
+## Description
+
+This dataset accompanies the paper "Data driven prediction of battery cycle life before capacity degradation" by K.A. Severson, P.M. Attia and co-authors, published in Nature Energy. The rdbraatz GitHub repository holds the data processing code that loads it, while the data itself is hosted at data.matr.io.
+
+Each battery cell has three groups of data. Descriptors give the charging policy, cycle life, barcode and channel. Summary data, one record per cycle, give cycle number, charge and discharge capacity, internal resistance, maximum, average and minimum temperature, and charge time. Cycle data hold time, current, voltage, temperature and capacities within each cycle, plus derived discharge dQ/dV and linearly interpolated discharge capacity and temperature.
+
+The data is provided as MATLAB structs and as nested Python dictionaries in pkl files; barcode and channel are absent from the pkl files. The modeling code is available from Richard Braatz under an academic license.
+
+## References
+
+- [GitHub repository](https://github.com/rdbraatz/data-driven-prediction-of-battery-cycle-life-before-capacity-degradation)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/data-driven-prediction-of-battery-cycle-life-before-capacity-degradation/)
+
+[⬅️ Back to Index](../README.md)

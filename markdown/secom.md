@@ -1,0 +1,31 @@
+# SECOM
+
+Semiconductor manufacturing process data of 1,567 production entities with 591 sensor features and a pass/fail yield label, with balanced error rate baselines.
+
+- **Domain:** Electronics and semiconductors
+- **Asset / Process:** Semiconductor wafers and process tools
+- **Modality:** Tabular
+- **Task:** Classification; Quality prediction
+- **Annotation:** Sample label
+- **Source Type:** Real production
+- **Access:** UCI repository
+- **Size:** 1,567 examples with 591 features
+- **Year:** 2008
+- **License:** CC BY
+- **Benchmark:** Yes
+
+## Description
+
+SECOM holds data from a semiconductor manufacturing process that is monitored through signals from sensors and process measurement points. It was created by Michael McCann and Adrian Johnston and donated to the UCI Machine Learning Repository in 2008.
+
+Each of the 1,567 examples is a single production entity with 591 measured features. A separate labels file gives a pass/fail yield result from in-house line testing, with -1 for pass and 1 for fail, and a date and time stamp; 104 examples are fails. The features are real-valued, and missing values appear as NaN. The data comes as space-separated raw text files.
+
+The task is to rank features by their impact on yield and to classify pass or fail. Baselines select 40 features and report the balanced error rate of a kernel ridge classifier under 10-fold cross validation. The data is released under CC BY 4.0.
+
+## References
+
+- [DOI](https://doi.org/10.24432/C54305)
+- [UCI Machine Learning Repository](https://archive.ics.uci.edu/dataset/179/secom)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/secom/)
+
+[⬅️ Back to Index](../README.md)

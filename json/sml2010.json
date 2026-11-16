@@ -1,0 +1,23 @@
+{
+  "Name": "SML2010",
+  "Summary": "About 40 days of indoor climate, weather and lighting readings from a monitoring system in a domotic house, as 15-minute means of per-minute samples.",
+  "Domain": "Buildings and appliances",
+  "Modality": "Time series",
+  "Task": "Regression",
+  "Source Type": "Real production",
+  "Access": "UCI repository",
+  "Size": "4,137 instances",
+  "Year": "2014",
+  "License": "CC BY",
+  "Description": "SML2010 comes from a monitoring system mounted in a domotic house and covers about 40 days of data. It was created by Pablo Romeu-Guallart and Francisco Zamora-Martinez and donated to the UCI Machine Learning Repository in 2014.\n\nThe data was sampled every minute and stored as 15-minute means, giving 4,137 instances with UTC timestamps. The 24 attributes include indoor temperature, carbon dioxide, relative humidity and lighting in the dining room and in a second room, a weather forecast temperature, outdoor temperature and humidity, rain, wind, sunlight on the west, east and south facades, sun irradiance, the on-off state of three enthalpic motors and the day of the week.\n\nThe data comes as two text files whose header comment names the columns in Spanish. The associated task is regression, and the data is released under CC BY 4.0.",
+  "References": [
+    {
+      "Text": "UCI Machine Learning Repository",
+      "Link": "https://archive.ics.uci.edu/ml/datasets/SML2010"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/sml2010/"
+    }
+  ]
+}

@@ -1,0 +1,26 @@
+# ISDB - International Stiction Data Base
+
+Industrial control-loop data accompanying the 2009 Springer book on detecting and diagnosing valve stiction, edited by Mohieddine Jelali and Biao Huang.
+
+- **Domain:** Chemical and process
+- **Asset / Process:** Valves and actuators
+- **Modality:** Time series
+- **Task:** Process monitoring
+- **Year:** 2009
+
+## Description
+
+ISDB is the data used in Detection and Diagnosis of Stiction in Control Loops: State of the Art and Advanced Methods, a book edited by Mohieddine Jelali and Biao Huang in Springer's Advances in Industrial Control series. It is offered on Biao Huang's book page at the University of Alberta.
+
+The book treats stiction, the static friction in control valves that it calls the most common valve problem in the process industries. Its methods cover oscillation detection in control loops, stiction detection and diagnosis, and stiction quantification with the diagnosis of multiple faults, and they are compared in industrial case studies from chemicals, building, mining, pulp and paper, mineral and metal processing.
+
+A chapter by Jelali and Scali compares valve-stiction-detection methods on 93 data sets from process industries, among them chemicals, pulp and paper mills, commercial buildings and metal processing. MATLAB-based toolboxes for teaching and research use go with the book.
+
+## References
+
+- [Official page](https://sites.ualberta.ca/~bhuang/Stiction-Book.htm)
+- [DOI](https://doi.org/10.1007/978-1-84882-775-2)
+- [DOI](https://doi.org/10.1007/978-1-84882-775-2_13)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/isdb-international-stiction-data-base/)
+
+[⬅️ Back to Index](../README.md)

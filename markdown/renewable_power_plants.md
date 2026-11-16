@@ -1,0 +1,28 @@
+# Renewable power plants
+
+Open Power System Data package listing renewable power plants in eight European countries, plus daily time series of cumulated installed capacity per energy source.
+
+- **Domain:** Energy and power
+- **Asset / Process:** Power grids and plants
+- **Modality:** Tabular; Time series
+- **Task:** Regression
+- **Source Type:** Public records
+- **Access:** Direct download
+- **Size:** 352 MB zipped data package
+- **Year:** 2020
+- **Publisher:** Open Power System Data
+
+## Description
+
+Renewable power plants is a data package from Open Power System Data that lists renewable energy power plants in Czechia, Denmark, France, Germany, Poland, Sweden, Switzerland and the United Kingdom. Version 2020-08-25 is built from primary data of various sources, among them the Bundesnetzagentur, Energinet and the UK Department for Business, Energy & Industrial Strategy.
+
+Coverage differs by country: Germany has all plants supported by the Renewable Energy Law (EEG), Switzerland the plants under the KEV feed-in tariff, and Poland only summed capacity and installation counts per municipality. Typical columns are installed electrical capacity in MW, energy source and technology, NUTS region codes, coordinates and commissioning date. Suspect or likely duplicate entries are marked in a comment column. A separate file holds daily time series of cumulated installed capacity per energy source for five countries.
+
+The lists come as one CSV per country, an EU-wide CSV, an Excel workbook, a SQLite database and a 352 MB zip package.
+
+## References
+
+- [Official page](https://data.open-power-system-data.org/renewable_power_plants/2020-08-25)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/renewable-power-plants/)
+
+[⬅️ Back to Index](../README.md)

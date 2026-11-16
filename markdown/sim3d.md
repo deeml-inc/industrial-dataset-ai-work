@@ -1,0 +1,27 @@
+# SiM3D
+
+Multiview, multimodal 3D anomaly detection data of 333 instances of 8 manufacturing object types, with CAD models and voxel-level defect annotations.
+
+- **Domain:** Manufacturing
+- **Modality:** Image; 3D point cloud; Multimodal
+- **Task:** Anomaly detection; Anomaly localization
+- **Annotation:** 3D point mask
+- **Source Type:** Mixed
+- **Access:** Hugging Face
+- **Size:** 333 object instances, about 400 GB compressed
+- **Year:** 2025
+
+## Description
+
+SiM3D (Single-instance Multiview Multimodal 3D Anomaly Detection) is a dataset for 3D anomaly detection and segmentation in manufacturing, in which a method produces a voxel-based Anomaly Volume. It targets single-instance detection, in which only one real or synthetic object is available for training. The paper by Alex Costanzino and co-authors was accepted at ICCV 2025.
+
+The data covers 333 object instances of 8 manufacturing object types, each type with a CAD model. Each instance has 12 to 36 views from concentric hemispheres, with 12 Mpx grayscale images and point meshes of 5 to 7 million points captured with ZEISS Atos Q sensors. Defects such as dents, scratches, contaminations and paint modifications were made by hand, and anomalous test samples have manually annotated 3D segmentation ground truth.
+
+Training follows one of two setups, real2real or synth2real; in the second, methods train on CAD models and are tested on real objects. The archive is about 400 GB compressed and 800 GB unpacked, and access on Hugging Face requires accepting its conditions.
+
+## References
+
+- [Hugging Face dataset](https://huggingface.co/datasets/arcanoXIII/SiM3D)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/sim3d/)
+
+[⬅️ Back to Index](../README.md)

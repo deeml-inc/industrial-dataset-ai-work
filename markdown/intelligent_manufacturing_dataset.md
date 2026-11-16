@@ -1,0 +1,26 @@
+# Intelligent Manufacturing Dataset
+
+Simulated industrial machine data that combines IoT sensor readings, 6G network metrics and production indicators with a three-class efficiency target.
+
+- **Domain:** Manufacturing
+- **Modality:** Tabular
+- **Task:** Classification
+- **Annotation:** Class label
+- **Source Type:** Synthetic
+- **Access:** Kaggle
+- **License:** CC0 and public domain
+
+## Description
+
+The Intelligent Manufacturing Dataset for Predictive Optimization is a simulated dataset that its publisher describes as designed for research on smart manufacturing, AI-driven process optimization and predictive maintenance. It models real-time sensor data from industrial machines connected through 6G network slicing and comes as one CSV file, manufacturing_6G_dataset.csv.
+
+Each record joins three groups of variables. Industrial IoT sensor values include temperature, vibration and power consumption. Network performance metrics cover latency, packet loss and communication efficiency. Production indicators give the defect rate, a predictive maintenance score and an error rate. The Efficiency_Status target rates manufacturing efficiency as High, Medium or Low from these performance metrics.
+
+The publisher lists AI-based predictive maintenance, resource allocation in 6G-enabled smart factories, real-time anomaly detection and deep learning training as its intended applications. The data is released under CC0 1.0.
+
+## References
+
+- [Kaggle dataset](https://www.kaggle.com/datasets/ziya07/intelligent-manufacturing-dataset)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/intelligent-manufacturing-dataset/)
+
+[⬅️ Back to Index](../README.md)

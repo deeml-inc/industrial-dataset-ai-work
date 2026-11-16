@@ -1,0 +1,23 @@
+{
+  "Name": "MVTec 3D-AD",
+  "Summary": "Unsupervised 3D anomaly detection and localization dataset of over 4,000 high-resolution scans from an industrial 3D sensor in 10 object categories.",
+  "Domain": "Manufacturing",
+  "Modality": "3D point cloud",
+  "Task": "Anomaly detection; Anomaly localization",
+  "Annotation": "Normal-only training",
+  "Size": "4,000+ scans in 10 categories",
+  "Year": "2022",
+  "License": "CC BY-NC-SA",
+  "Publisher": "MVTec",
+  "Description": "MVTec 3D-AD (MVTec 3D anomaly detection dataset) is a 3D dataset from MVTec for unsupervised anomaly detection and localization. It is described in a paper by Paul Bergmann, David Sattlegger and Carsten Steger in the VISAPP 2022 proceedings, which received a Best Industrial Paper Award at the 17th International Conference on Computer Vision Theory and Applications.\n\nThe dataset contains more than 4,000 high-resolution scans acquired with an industrial 3D sensor, in 10 object categories. Each category has defect-free training and validation samples and a test set of samples with various kinds of defects, and every anomalous test sample comes with precise ground-truth annotations.\n\nPython evaluation scripts with a readme are provided for a fair and consistent comparison of methods. The data is released under CC BY-NC-SA 4.0, which does not allow commercial use.",
+  "References": [
+    {
+      "Text": "Official page",
+      "Link": "https://www.mvtec.com/company/research/datasets/mvtec-3d-ad"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/mvtec-3d-ad/"
+    }
+  ]
+}

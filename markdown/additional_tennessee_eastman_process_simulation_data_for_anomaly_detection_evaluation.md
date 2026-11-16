@@ -1,0 +1,30 @@
+# Additional Tennessee Eastman Process Simulation Data for Anomaly Detection Evaluation
+
+Simulated Tennessee Eastman process runs with 20 fault types and fault-free operation, 500 runs per set, for evaluating anomaly detection methods.
+
+- **Domain:** Chemical and process
+- **Asset / Process:** Chemical process units
+- **Modality:** Time series
+- **Task:** Fault diagnosis; Process monitoring
+- **Annotation:** Class label; Event and time label
+- **Source Type:** Simulation
+- **Access:** Zenodo, Dataverse or Figshare
+- **Size:** 4 R data files, 1.3 GB as ZIP
+- **Year:** 2017
+- **License:** CC0 and public domain
+- **Publisher:** Pacific Science and Engineering Group
+
+## Description
+
+This Harvard Dataverse dataset holds the Tennessee Eastman Process (TEP) simulation data used in Rieth et al. (2017), "Issues and Advances in Anomaly Detection Evaluation for Joint Human-Automated Systems", prepared for Applied Human Factors and Ergonomics 2017. The authors are Cory A. Rieth, Ben D. Amsel, Randy Tran and Maia B. Cook of Pacific Science and Engineering Group, with sponsorship from the Office of Naval Research.
+
+The four RData files hold fault-free and faulty sets for training and testing. Each dataframe has 55 columns: the fault number (0 for normal operation, 1 to 20 for fault types), the simulation run (1 to 500, each from a different random generator state, with non-overlapping seeds for training and testing) and the sample index, followed by the original TEP process variables in columns 4 to 55.
+
+Variables are sampled every 3 minutes, over 25 hours (500 samples) for training and 48 hours (960 samples) for testing. Faults start 1 hour into faulty training runs and 8 hours into faulty testing runs. The data is dedicated to the public domain.
+
+## References
+
+- [Official page](https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/6C3JR1)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/additional-tennessee-eastman-process-simulation-data-for-anomaly-detection/)
+
+[⬅️ Back to Index](../README.md)

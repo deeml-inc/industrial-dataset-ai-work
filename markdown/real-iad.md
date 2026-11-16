@@ -1,0 +1,28 @@
+# Real-IAD
+
+Multi-view industrial anomaly detection images from a real production line, with eight coded defect types and JSON data splits, about 507 GB in raw form.
+
+- **Domain:** Manufacturing
+- **Modality:** Image
+- **Task:** Defect detection
+- **Annotation:** Class label
+- **Source Type:** Real production
+- **Access:** Hugging Face
+- **Size:** About 507 GB raw; about 53 GB at 1024 × 1024
+- **Year:** 2024
+- **Benchmark:** Yes
+
+## Description
+
+Real-IAD is a real-world multi-view image dataset for industrial anomaly detection, introduced at the IEEE/CVF Conference on Computer Vision and Pattern Recognition in 2024 by Chengjie Wang, Wenbing Zhu, Bin-Bin Gao and co-authors. It comes from a real production line. Staff from Rongcheer Co., Ltd. carried out material preparation, prototype construction, data collection and annotation, followed by a cleaning step.
+
+The release has three main files. The raw high-resolution data is about 507 GB, a version downsampled to 1024 × 1024 is about 53 GB, and a JSON archive defines the data splits. Folder codes map to eight defect types: pit, deformation, abrasion, scratch, damage, missing parts, foreign objects and contamination.
+
+The files are downloaded from Hugging Face, where access requests are approved automatically.
+
+## References
+
+- [Official page](https://realiad4ad.github.io/Real-IAD/)
+- [Industrial Atlas page](https://www.indatlas.com/datasets/real-iad/)
+
+[⬅️ Back to Index](../README.md)

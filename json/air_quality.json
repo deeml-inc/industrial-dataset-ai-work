@@ -1,0 +1,27 @@
+{
+  "Name": "Air Quality",
+  "Summary": "Hourly responses of five metal oxide gas sensors deployed at road level in an Italian city, paired with reference analyzer concentrations over one year.",
+  "Domain": "Environment and safety",
+  "Modality": "Time series",
+  "Task": "Regression",
+  "Annotation": "Scalar target",
+  "Access": "UCI repository",
+  "Size": "9,358 hourly records",
+  "Year": "2016",
+  "License": "Academic or non-commercial terms",
+  "Description": "The Air Quality dataset was created by Saverio Vito and donated to the UCI Machine Learning Repository in 2016. It is linked to the 2008 paper \"On field calibration of an electronic nose for benzene estimation in an urban pollution monitoring scenario\" by S. D. Vito, E. Massera, M. Piga, L. Martinotto and G. Francia.\n\nAn Air Quality Chemical Multisensor Device stood at road level in a significantly polluted area of an Italian city. Its 9,358 records are hourly averages from March 2004 to February 2005. Each holds the responses of five metal oxide sensors (tin oxide, titania, two tungsten oxide and indium oxide) together with temperature and relative and absolute humidity. A co-located certified reference analyzer provides hourly concentrations of CO, non-methanic hydrocarbons, benzene, NOx and NO2. Missing values are tagged with -200.\n\nThe data shows cross-sensitivities as well as concept and sensor drift. Its associated task is regression, and it may be used only for research, not commercially.",
+  "References": [
+    {
+      "Text": "UCI Machine Learning Repository",
+      "Link": "https://archive.ics.uci.edu/ml/datasets/Air+Quality"
+    },
+    {
+      "Text": "DOI",
+      "Link": "https://doi.org/10.24432/C59K5F"
+    },
+    {
+      "Text": "Industrial Atlas page",
+      "Link": "https://www.indatlas.com/datasets/air-quality/"
+    }
+  ]
+}
